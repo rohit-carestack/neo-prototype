@@ -56,7 +56,7 @@ const App = () => (
         <TooltipProvider>
           <Toaster />
           <Sonner />
-          <BrowserRouter>
+          <BrowserRouter basename="/neo-prototype">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/activity" element={<ActivityLog />} />
